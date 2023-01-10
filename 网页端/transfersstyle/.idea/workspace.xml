@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bb946e4-f915-43b5-81b7-1939b63cc928" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1oXoDbpYAURvIv1f5tbemfX9BFH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="E:\Nodejs\node-v14.4.0-win-x64\node_global\node_modules\npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java_Code\transfersstyle" />
+      <recent name="E:\Java_Code\transfersstyle\checkpoint" />
+      <recent name="E:\Java_Code\transfersstyle\static\images" />
+      <recent name="E:\Java_Code\transfersstyle\samples_mosaic" />
+      <recent name="E:\Java_Code\transfersstyle\transfersstyle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DeeplabTest">
+    <configuration name="Test: " type="DjangoTestsConfigurationType">
+      <module name="transfersstyle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DeeplabTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="transfersstyle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeeplabTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="resnet4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="transfersstyle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resnet4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="style_transfer_by_torch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="transfersstyle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/style_transfer_by_torch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_vgg_resnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="transfersstyle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_vgg_resnet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="transfersstyle" type="Python.DjangoServer" factoryName="Django server">
+      <module name="transfersstyle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="transfersstyle.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="3145" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django 服务器.transfersstyle" />
+      <item itemvalue="Django 测试.Test: " />
+      <item itemvalue="Python.DeeplabTest" />
+      <item itemvalue="Python.resnet4" />
+      <item itemvalue="Python.style_transfer_by_torch" />
+      <item itemvalue="Python.train_vgg_resnet" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DeeplabTest" />
+        <item itemvalue="Python.train_vgg_resnet" />
+        <item itemvalue="Python.style_transfer_by_torch" />
+        <item itemvalue="Python.resnet4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6bb946e4-f915-43b5-81b7-1939b63cc928" name="默认的" comment="" />
+      <created>1613442178603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613442178603</updated>
+      <workItem from="1613442181290" duration="4491000" />
+      <workItem from="1613523945191" duration="4052000" />
+      <workItem from="1613544630753" duration="2413000" />
+      <workItem from="1613608723543" duration="1336000" />
+      <workItem from="1613614537551" duration="2135000" />
+      <workItem from="1613696767488" duration="5475000" />
+      <workItem from="1613783767089" duration="17743000" />
+      <workItem from="1613872505075" duration="8244000" />
+      <workItem from="1613957509161" duration="21000" />
+      <workItem from="1613957551835" duration="4162000" />
+      <workItem from="1613990285851" duration="1189000" />
+      <workItem from="1614045769494" duration="1188000" />
+      <workItem from="1614092256241" duration="43000" />
+      <workItem from="1614128665681" duration="638000" />
+      <workItem from="1614163007608" duration="1188000" />
+      <workItem from="1614212896193" duration="637000" />
+      <workItem from="1614302936819" duration="673000" />
+      <workItem from="1614339404866" duration="66000" />
+      <workItem from="1614339509755" duration="727000" />
+      <workItem from="1614340745664" duration="53000" />
+      <workItem from="1614388495573" duration="642000" />
+      <workItem from="1614473424361" duration="684000" />
+      <workItem from="1614560289115" duration="3000" />
+      <workItem from="1614560890094" duration="647000" />
+      <workItem from="1614649198939" duration="1189000" />
+      <workItem from="1614656508279" duration="602000" />
+      <workItem from="1614681497527" duration="654000" />
+      <workItem from="1614734038919" duration="609000" />
+      <workItem from="1614825412505" duration="2135000" />
+      <workItem from="1614904330404" duration="1781000" />
+      <workItem from="1615119381298" duration="1188000" />
+      <workItem from="1615162563618" duration="192000" />
+      <workItem from="1615162830314" duration="1260000" />
+      <workItem from="1615252654235" duration="1310000" />
+      <workItem from="1615339568562" duration="67000" />
+      <workItem from="1615339673677" duration="693000" />
+      <workItem from="1615435093246" duration="1821000" />
+      <workItem from="1615509358293" duration="6970000" />
+      <workItem from="1615676944510" duration="26624000" />
+      <workItem from="1615762785724" duration="3100000" />
+      <workItem from="1615784468215" duration="11541000" />
+      <workItem from="1615874493917" duration="7232000" />
+      <workItem from="1615936611729" duration="319000" />
+      <workItem from="1615937105151" duration="64000" />
+      <workItem from="1615964137630" duration="15810000" />
+      <workItem from="1615983751816" duration="2992000" />
+      <workItem from="1616060243840" duration="3508000" />
+      <workItem from="1616573063332" duration="364000" />
+      <workItem from="1617006332279" duration="244000" />
+      <workItem from="1617106205328" duration="581000" />
+      <workItem from="1617429072091" duration="407000" />
+      <workItem from="1617429521955" duration="2738000" />
+      <workItem from="1617611062935" duration="245000" />
+      <workItem from="1617762338060" duration="13787000" />
+      <workItem from="1617880442794" duration="1454000" />
+      <workItem from="1617974079149" duration="158000" />
+      <workItem from="1617982314739" duration="583000" />
+      <workItem from="1618059010683" duration="750000" />
+      <workItem from="1618099095214" duration="585000" />
+      <workItem from="1618132907624" duration="301000" />
+      <workItem from="1618133263157" duration="32000" />
+      <workItem from="1618133318089" duration="116000" />
+      <workItem from="1618133467793" duration="105000" />
+      <workItem from="1618133609105" duration="217000" />
+      <workItem from="1618134204358" duration="80000" />
+      <workItem from="1618134394588" duration="127000" />
+      <workItem from="1618134603670" duration="766000" />
+      <workItem from="1618207402201" duration="152000" />
+      <workItem from="1618219029881" duration="57000" />
+      <workItem from="1618222932301" duration="290000" />
+      <workItem from="1618481169806" duration="149000" />
+      <workItem from="1618623558985" duration="159000" />
+      <workItem from="1618640149190" duration="1188000" />
+      <workItem from="1618731992625" duration="152000" />
+      <workItem from="1618732164461" duration="135000" />
+      <workItem from="1618732319943" duration="10756000" />
+      <workItem from="1618821293940" duration="8800000" />
+      <workItem from="1618903132951" duration="4979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/transfersstyle$resnet4.coverage" NAME="resnet4 覆盖结果" MODIFIED="1615981619201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/transfersstyle$train_vgg_resnet.coverage" NAME="train_vgg_resnet 覆盖结果" MODIFIED="1615970404240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/transfersstyle$DeeplabTest.coverage" NAME="DeeplabTest 覆盖结果" MODIFIED="1618907480255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/transfersstyle$Test__.coverage" NAME="Test:  覆盖结果" MODIFIED="1613905082624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/transfersstyle$style_transfer_by_torch.coverage" NAME="style_transfer_by_torch 覆盖结果" MODIFIED="1615020132436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
