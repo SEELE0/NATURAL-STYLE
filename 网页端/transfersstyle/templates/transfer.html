@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/static/assets/css/trans.css">
+    <script src="https://pixijs.download/release/pixi.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="添加被搜索关键字">
+    <meta name="description" content="这里添加项目名称">
+    <meta name="author" content="xieyang">
+    <meta name="robots" content="index, follow, archive">
+    <link rel="stylesheet" href="/static/transferpicture_show/index.css">
+    <title></title>
+    <style>
+        @media print {
+            #ghostery-tracker-tally {
+                display: none !important
+            }
+        }
+    </style>
+    <script src="/static/transferpicture_show/angular-sanitize.min.js"></script>
+    <script src="/static/transferpicture_show/angular-file-upload.min.js"></script>
+    <script src="/static/transferpicture_show/angular-file-upload-shim.min.js"></script>
+    <script src="/static/transferpicture_show/aliyun-oss-sdk.min.js"></script>
+    <script src="/static/transferpicture_show/main.js"></script>
+</head>
+
+<body>
+    <!-- Canvas -->
+    <canvas class="orb-canvas"></canvas>
+    <!-- Overlay -->
+    <div class="overlay">
+        <!-- Overlay inner wrapper -->
+        <div class="overlay__inner">
+            <!-- Title -->
+            <h1 class="overlay__title">
+                Hey, 欢迎创造出属于自己的第一张<br>
+                <span class="text-gradient">艺术照片</span> by NEURAL STYLE AI
+            </h1>
+            <!-- Description -->
+            <p class="overlay__description">
+                In this tutorial we will be creating a generative “orb” animation
+                using pixi.js, picking some lovely random colors and pulling it all
+                together in a nice frosty UI.
+                <strong>We're gonna talk accessibility, too.</strong>
+            </p>
+            <div class="container" id="container" >
+
+                <div class="row" >
+                    <div class="col-xs-12 col-md-6">
+                        <div class="ba-slider">
+                            <img src="{{ img_2 }}" alt="before">
+                            <div class="resize"><img
+                                    src="{{ img_1 }}"
+                                    alt="after-jpghd" style="width: 555px;"></div>
+                            <span class="handle"></span>
+                        </div>
+                    </div>
+        
+                </div>
+            <!-- Buttons -->
+            <div class="overlay__btns">
+
+                <button class="overlay__btn overlay__btn--transparent">
+                    <a href="/index/landing/"
+                        target="_blank">
+                        返回
+                    </a>
+                </button>
+
+                <button class="overlay__btn overlay__btn--colors">
+                    <a class="download" href="{{img_2}}"download="{{img_2}}">下载</a>
+                    <span class="overlay__btn-emoji">🎨</span>
+                </button>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+    <script  src="https://pixijs.download/release/pixi.min.js"></script>
+    <script type="module" src="/static/assets/js/trans.js"></script>
+    <script type="text/javascript" src="/static/transferpicture_show/jquery-3.2.1.min.js">
+    </script>
+    <script type="text/javascript" src="/static/transferpicture_show/bootstrap.min.js">
+    </script>
+    <script type="text/javascript" src="/static/transferpicture_show/pace.min.js">
+    </script>
+    <script>
+
+        // Call & init
+        $(document).ready(function () {
+            $('.ba-slider').each(function () {
+                var cur = $(this);
+                // Adjust the slider
+                var width = cur.width() + 'px';
+                cur.find('.resize img').css('width', width);
+                // Bind dragging events
+                drags(cur.find('.handle'), cur.find('.resize'), cur);
+            });
+        });
+        // Update sliders on resize.
+        $(window).resize(function () {
+            $('.ba-slider').each(function () {
+                var cur = $(this);
+                var width = cur.width() + 'px';
+                cur.find('.resize img').css('width', width);
+            });
+        });
+        var drags = function (dragElement, resizeElement, container) {
+            // Initialize the dragging event on mousedown.
+            dragElement.on('mousedown touchstart', function (e) {
+                dragElement.addClass('draggable');
+                resizeElement.addClass('resizable');
+                // Check if it's a mouse or touch event and pass along the correct value
+                var startX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
+                // Get the initial position
+                var dragWidth = dragElement.outerWidth(),
+                    posX = dragElement.offset().left + dragWidth - startX,
+                    containerOffset = container.offset().left,
+                    containerWidth = container.outerWidth();
+                // Set limits
+                minLeft = containerOffset - 16;
+                maxLeft = containerOffset + containerWidth - dragWidth + 16;
+                // Calculate the dragging distance on mousemove.
+                dragElement.parents().on("mousemove touchmove", function (e) {
+                    // Check if it's a mouse or touch event and pass along the correct value
+                    var moveX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
+                    leftValue = moveX + posX - dragWidth;
+                    // Prevent going off limits
+                    if (leftValue < minLeft) {
+                        leftValue = minLeft;
+                    } else if (leftValue > maxLeft) {
+                        leftValue = maxLeft;
+                    }
+                    // Translate the handle's left value to masked divs width.
+                    widthValue = (leftValue + dragWidth / 2 - containerOffset) * 100 /
+                        containerWidth + '%';
+                    // Set the new values for the slider and the handle.
+                    // Bind mouseup events to stop dragging.
+                    $('.draggable').css('left', widthValue).on('mouseup touchend touchcancel',
+                        function () {
+                            $(this).removeClass('draggable');
+                            resizeElement.removeClass('resizable');
+                        });
+                    $('.resizable').css('width', widthValue);
+                }).on('mouseup touchend touchcancel', function () {
+                    dragElement.removeClass('draggable');
+                    resizeElement.removeClass('resizable');
+                });
+                e.preventDefault();
+            }).on('mouseup touchend touchcancel', function (e) {
+                dragElement.removeClass('draggable');
+                resizeElement.removeClass('resizable');
+            });
+        }
+    </script>
+    <script src="/static/assets/js/jquery.min.js"></script>
+    <script src="/static/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/static/assets/js/jquery.scrollex.min.js"></script>
+</body>
+
+</html>
